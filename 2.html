@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Elephant , sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      /* Add header styles here */
+    }
+
+    .contact-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .contact-image {
+      flex: 1;
+      text-align: center;
+    }
+
+    .contact-image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .contact-form {
+      flex: 1;
+      padding: 20px;
+      background-color: #a5f5f5;
+      border-radius: 5px;
+    }
+
+    .contact-form h2 {
+      margin-top: 0;
+    }
+
+    .contact-form p {
+      margin-bottom: 10px;
+    }
+
+    .contact-form form {
+      margin-top: 20px;
+    }
+
+    .form-row {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      /* Add footer styles here */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Your header content goes here -->
+  </header>
+
+  <section class="contact-section">
+    <div class="contact-image">
+      <img src="xxxxx.png" alt="Contact Image">
+    </div>
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <p>24-hour contact center</p>
+      <p>Telephone: [0761149756]</p>
+      <p>Fax: [0112567890]</p>
+      <p>Email: [jcdsoysa@gmail.com]</p>
+
+      <form id="contactForm">
+        <div class="form-row">
+          <label for="country">Your Country:</label>
+          <input type="text" id="country" name="country" required>
+        </div>
+        <div class="form-row">
+          <label for="address">Your Address:</label>
+          <input type="text" id="address" name="address" required>
+        </div>
+        <div class="form-row">
+          <label for="phone">Your Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-row">
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <!-- footer content
